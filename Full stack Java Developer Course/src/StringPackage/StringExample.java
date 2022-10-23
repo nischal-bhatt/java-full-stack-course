@@ -23,6 +23,10 @@ public class StringExample {
 		{
 			System.out.println("right in here");
 		}
+		
+		String str1 = "hello world"; //string literal
+		System.out.println(str1);
+		
 	}
 	
 	
