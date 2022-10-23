@@ -1,5 +1,8 @@
 package JavaGenerics;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Data {
 	private Object obj;
 
@@ -67,5 +70,20 @@ public class App {
 		GenericClass<String> a = new GenericClass<String>("stringdata");
 		String variableString = a.getData();
 	    System.out.println(variableString);
+	
+	
+	    List<GenericClass<String>> elements = new ArrayList<>();
+	    
+	    elements.add(new GenericClass<String>("hey"));
+	    elements.add(new GenericClass<String>("hey1"));
+	    
+	    elements.add(new GenericClass<String>("hey2"));
+	    
+	    elements.add(new GenericClass<String>("hey3"));
+	    
+	    for (GenericClass<String> a1 : elements)
+	    {
+	       System.out.println(a1.getData().length());
+	    }
 	}
 }
