@@ -16,6 +16,7 @@ public class DoorNew {
 			}
 		}
 		
+		//new Lock() is an anonymous object
 		return new Lock().isLocked(key);
 	}
 }
