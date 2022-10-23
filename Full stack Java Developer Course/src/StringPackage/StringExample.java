@@ -27,6 +27,16 @@ public class StringExample {
 		String str1 = "hello world"; //string literal
 		System.out.println(str1);
 		
+		String str2 = new String("nish");
+		String str3 = new String("nish");
+		
+		if (str2 == str3)
+		{
+			System.out.println("com in here?");
+		}else
+		{
+			System.out.println("cannot");
+		}
 	}
 	
 	
