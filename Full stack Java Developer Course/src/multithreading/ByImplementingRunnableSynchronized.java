@@ -1,7 +1,7 @@
 package multithreading;
 
 class Brakets {
-	synchronized public void generate() 
+	public synchronized void generate() 
 	{
 		for (int i =1; i<=10; i++)
 		{
