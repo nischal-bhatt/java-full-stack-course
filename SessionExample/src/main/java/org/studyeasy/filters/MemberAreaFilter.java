@@ -37,6 +37,7 @@ public class MemberAreaFilter extends HttpFilter implements Filter {
 	
 	public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
 	
+		System.out.println("in here");
 		HttpServletResponse response = (HttpServletResponse)res;
 		HttpServletRequest request = (HttpServletRequest)req;
 		
